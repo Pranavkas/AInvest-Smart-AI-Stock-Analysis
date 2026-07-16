@@ -1,4 +1,4 @@
-# 📊 AInvest — Smart AI Stock Analysis Platform
+#  AInvest — Smart AI Stock Analysis Platform
 
 AInvest is an AI-powered financial analysis platform designed to provide real-time stock insights, sentiment analysis, and intelligent investment recommendations through an interactive web interface.
 
@@ -6,7 +6,7 @@ It combines financial data, news intelligence, and generative AI to help users m
 
 ---
 
-## 🚀 Overview
+##  Overview
 
 AInvest allows users to:
 
@@ -18,15 +18,15 @@ AInvest allows users to:
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-### 📈 Market Data Analysis
+###  Market Data Analysis
 
 * Fetches live stock data using Yahoo Finance
 * Calculates latest price and average price
 * Displays interactive charts (time-series trends)
 
-### 🧠 AI-Powered Insights
+###  AI-Powered Insights
 
 * Uses LLM (Google Gemini API) for:
 
@@ -34,12 +34,12 @@ AInvest allows users to:
   * Financial report generation
 * Converts raw data into actionable insights
 
-### 📰 News Intelligence
+###  News Intelligence
 
 * Fetches latest stock-related news
 * Performs sentiment classification (positive/neutral/negative)
 
-### 📊 Interactive Dashboard
+###  Interactive Dashboard
 
 * Built with Streamlit
 * Clean UI with:
@@ -49,7 +49,7 @@ AInvest allows users to:
   * Recent searches
   * Watchlist management
 
-### ⚡ Smart Workflow System
+###  Smart Workflow System
 
 * Modular agent-based architecture:
 
@@ -59,7 +59,7 @@ AInvest allows users to:
 
 ---
 
-## 🏗️ Project Architecture
+##   Project Architecture
 
 ```
 AInvest-Smart-AI-Stock-Analysis/
@@ -90,13 +90,13 @@ AInvest-Smart-AI-Stock-Analysis/
 
 ---
 
-## ⚙️ Installation & Setup Guide
+##   Installation & Setup Guide
 
 Follow these steps carefully to run the project locally.
 
 ---
 
-### 🔹 Step 1: Clone the Repository
+###   Step 1: Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/AInvest-Smart-AI-Stock-Analysis.git
@@ -105,7 +105,7 @@ cd AInvest-Smart-AI-Stock-Analysis
 
 ---
 
-### 🔹 Step 2: Create Virtual Environment
+###   Step 2: Create Virtual Environment
 
 ```bash
 python -m venv venv
@@ -121,7 +121,7 @@ venv\Scripts\activate
 
 ---
 
-### 🔹 Step 3: Install Dependencies
+###   Step 3: Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -129,7 +129,7 @@ pip install -r requirements.txt
 
 ---
 
-### 🔹 Step 4: Configure Environment Variables
+###   Step 4: Configure Environment Variables
 
 Create a `.env` file in the root directory:
 
@@ -138,11 +138,11 @@ GEMINI_API_KEY=your_gemini_api_key
 NEWS_API_KEY=your_news_api_key
 ```
 
-> ⚠️ Important: Never push your `.env` file to GitHub
+>   Important: Never push your `.env` file to GitHub
 
 ---
 
-### 🔹 Step 5: Run the Application
+###   Step 5: Run the Application
 
 ```bash
 streamlit run app/main.py
@@ -150,7 +150,7 @@ streamlit run app/main.py
 
 ---
 
-### 🔹 Step 6: Open in Browser
+###   Step 6: Open in Browser
 
 ```
 http://localhost:8501
@@ -158,21 +158,21 @@ http://localhost:8501
 
 ---
 
-## 🧪 How to Use
+##   How to Use
 
 1. Enter stock name (e.g., `TCS`, `INFY`)
 2. Click **Analyze**
 3. View:
 
-   * 📊 Stock price data
-   * 📈 Chart visualization
-   * 📰 News updates
-   * 🧠 Sentiment analysis
-   * 📄 AI-generated report
+   *  Stock price data
+   *  Chart visualization
+   *  News updates
+   *  Sentiment analysis
+   *  AI-generated report
 
 ---
 
-## 📊 Sample Output
+##   Sample Output
 
 * Latest Price vs Average Price
 * Sentiment: Positive / Neutral / Negative
@@ -181,7 +181,7 @@ http://localhost:8501
 
 ---
 
-## ⚠️ Known Limitations
+##   Known Limitations
 
 * Only supports NSE stocks (`.NS` auto-appended)
 * News availability depends on API
@@ -189,42 +189,29 @@ http://localhost:8501
 
 ---
 
-## 🔮 Future Enhancements
+##   Future Enhancements
 
-* 📉 Candlestick charts (TradingView style)
-* 📊 Portfolio tracking dashboard
-* 🔔 Real-time alerts system
-* 🌐 Cloud deployment (public access)
-* 📱 Mobile responsive UI
+*  Candlestick charts (TradingView style)
+*  Portfolio tracking dashboard
+*  Real-time alerts system
+*  Cloud deployment (public access)
+*  Mobile responsive UI
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
-**Pranav Kashyap**
+**Pranav Kumar**
 
 * Aspiring AI Engineer / Data Scientist
 * Focus: Machine Learning, Generative AI, Financial Systems
 
 ---
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 This project is for educational and demonstration purposes only.
 It does not constitute financial advice.
 
 ---
 
-## ⭐ Support
-
-If you found this useful:
-
-* ⭐ Star the repository
-* 🍴 Fork the project
-* 🤝 Contribute improvements
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License.
